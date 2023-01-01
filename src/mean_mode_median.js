@@ -23,13 +23,13 @@ function mode(arr) {
         }
     });
 
-    var mode = cnt[Object.keys(cnt)[0]];
     answer = Object.keys(cnt)[0];
+    var mode = cnt[answer];
 
     for (let i in cnt) {
         if (cnt[i] > mode) {
+            answer = i;
             mode = cnt[i];
-            answer = Object.keys(cnt)[i];
         }
     }
 
@@ -38,7 +38,9 @@ function mode(arr) {
 
 function median(arr){
     var answer = 0;
-    arr.sort();
+    arr.sort(function(a,b) {
+        return a - b;
+    });
     var center = parseInt(arr.length / 2);
 
     if(arr.length % 2 == 1){
