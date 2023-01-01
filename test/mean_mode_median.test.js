@@ -10,8 +10,8 @@ test("mean([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]) should be 5.5", () => {
     expect(src.mean([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])).toBe(5.5);
 });
 
-test("mean([6134, -3982, 5132]) should be 5.5", () => {
-    expect(src.mean([6134, -3982, 5132])).toBe(7284);
+test("mean([6134, -3982, 5132]) should be 7284", () => {
+    expect(src.mean([6134, -3982, 5132])).toBe(2428);
 });
 
 // test mode()
