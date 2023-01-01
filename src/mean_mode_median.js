@@ -2,7 +2,7 @@ function mean(arr) {
     var answer = 0;
 
     let sum = 0;
-    for(let i=0; i<arr.length; ++i){
+    for (let i = 0; i < arr.length; ++i) {
         sum += arr[i];
     }
 
@@ -33,21 +33,27 @@ function mode(arr) {
         }
     }
 
-    return answer;
+    return Number(answer);
 }
 
-function median(arr){
+function median(arr) {
     var answer = 0;
-    arr.sort(function(a,b) {
+    arr.sort(function (a, b) {
         return a - b;
     });
     var center = parseInt(arr.length / 2);
 
-    if(arr.length % 2 == 1){
+    if (arr.length % 2 == 1) {
         answer = arr[center];
     } else {
-        answer = (arr[center-1] + arr[center])/2;
+        answer = (arr[center - 1] + arr[center]) / 2;
     }
 
     return answer;
 }
+
+module.exports = {
+    mean,
+    mode,
+    median,
+}; 
