@@ -20,3 +20,10 @@ https://github.com/jihooni0914/Yu-say-Kim---Assignment-1
 
 ### cover photo
 ![image](https://user-images.githubusercontent.com/81512592/210164802-5cc959cd-c46b-45d8-9a57-5a816c986427.png)
+
+# Assignment 2 - Github Advanced
+
+### description
+성균관대학교 SW 멘토링 2주차 과제입니다.
+- CODEOWNERS, Tag & Release, Merge Conflict
+- 가사 출력 bash script 작성
