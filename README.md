@@ -9,7 +9,7 @@
 
 ### code
 - src : 1차원 배열의 mean, mode, median을 구하는 함수를 작성한 JavaScript file
-- test: 세 함수에 대한 test를 작성 (using Node.js jest)
+- test: 세 함수에 대한 test를 작성 (using Node.js jest) (conflict 발생시키기)
 
 # Assignment 2 - Github Advanced
 
