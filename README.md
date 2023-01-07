@@ -11,6 +11,14 @@
 - src : 1차원 배열의 mean, mode, median을 구하는 함수를 작성한 JavaScript file
 - test: 세 함수에 대한 test를 작성 (using Node.js jest)
 
+# Assignment 2 - Github Advanced
+
+### description
+성균관대학교 SW 멘토링 2주차 과제입니다.
+- CODEOWNERS 추가
+- bash script 작성
+- LFS 사용
+
 ### contributors
 - 성균관대학교 소프트웨어학과 김선우 (Sunwoo0110)
 - 성균관대학교 소프트웨어학과 유지훈 (jihooni0914)
