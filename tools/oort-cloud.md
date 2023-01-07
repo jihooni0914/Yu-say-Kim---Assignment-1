@@ -27,3 +27,5 @@ Let's go
 
 Beyond the road
 
+껍질을 깨뜨려버리자
+
