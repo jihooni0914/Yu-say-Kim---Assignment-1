@@ -20,7 +20,7 @@ echo "# 오르트 구름 (윤하)" >> $FILE
 
 git add $FILE && git commit -m "Title"
 
-echo -e "![Oort cloud cover](./cover_picture.jpg)\n" >> $FILE
+echo -e "![Oort cloud cover](./cover_picture.jpeg)\n" >> $FILE
 
 git add $FILE && git commit -m "Cover picture"
 
