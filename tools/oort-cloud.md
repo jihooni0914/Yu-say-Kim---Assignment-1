@@ -37,3 +37,5 @@ Beyond the road
 
 두 눈 앞의 끝 사뿐 넘어가
 
+한계 밖의 Trip 짜릿하잖아
+
