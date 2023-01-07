@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 #!/bin/bash
 
 FILE=oort-cloud.md
@@ -47,4 +45,3 @@ git commit -m "Add 20th sentence"
 echo -e "무모하대도 믿어 난\n" >> $FILE
 git add $FILE
 git commit -m "Add 21th sentence"
->>>>>>> 86f51c61b6da57f3e7928d956e62cfcc5c514b4e
